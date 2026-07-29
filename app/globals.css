@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-paper-line;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-paper text-slate-dark font-body antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display text-ink;
+  }
+  ::selection {
+    background-color: #1F5F4C;
+    color: #FAF8F3;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply font-mono text-[11px] tracking-widest2 uppercase text-brass-dark;
+  }
+  .section {
+    @apply px-6 md:px-10 lg:px-0;
+  }
+  .section-inner {
+    @apply max-w-content mx-auto;
+  }
+  .rule {
+    @apply border-t border-paper-line;
+  }
+  .ledger-code {
+    @apply font-mono text-xs tracking-widest2 uppercase;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-emerald text-paper font-body text-sm font-medium px-6 py-3.5 rounded-sm hover:bg-emerald-deep transition-colors duration-200;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 border border-ink/20 text-ink font-body text-sm font-medium px-6 py-3.5 rounded-sm hover:border-ink hover:bg-ink hover:text-paper transition-colors duration-200;
+  }
+  .btn-on-dark {
+    @apply inline-flex items-center justify-center gap-2 border border-paper/25 text-paper font-body text-sm font-medium px-6 py-3.5 rounded-sm hover:bg-paper hover:text-ink transition-colors duration-200;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
