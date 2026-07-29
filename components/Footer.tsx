@@ -11,7 +11,7 @@ const COLUMNS = [
   },
   {
     heading: "Contact",
-    links: ["hello@shandilyafintax.com", "+91 20 4567 8901"],
+    links: ["hello@shandilyafintax.com", "+91 9427693002"],
   },
 ];
 
