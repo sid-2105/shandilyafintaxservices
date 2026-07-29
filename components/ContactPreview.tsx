@@ -17,14 +17,14 @@ const INFO = [
   {
     icon: Phone,
     label: "Phone",
-    value: "+91 20 4567 8901",
+    value: "+91 9427693002",
     href: "tel:+912045678901",
   },
   {
     icon: MapPin,
     label: "Office",
-    value: "Pimpri-Chinchwad, Maharashtra, India",
-    href: "#",
+    value: "249 SHANTI UPVAN Opp,N.G CIRCLE,MEHTAPURA HIMATNAGAR, Gujarat, India - 383001",
+    href: "google.com/maps?cid=7292939291948175316&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAMYASAF&hl=en-IN&source=embed",
   },
 ];
 

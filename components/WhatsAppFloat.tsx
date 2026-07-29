@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 // TODO: replace with the firm's actual WhatsApp Business number, digits only, country code first (e.g. 91XXXXXXXXXX)
-const WHATSAPP_NUMBER = "912045678901";
+const WHATSAPP_NUMBER = "919427693002";
 const DEFAULT_MESSAGE =
   "Hello Shandilya Fintax Services LLP, I'd like to enquire about your services.";
 
