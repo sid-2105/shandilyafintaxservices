@@ -52,7 +52,7 @@ export default function Footer() {
 
         <div className="pt-8 flex flex-col sm:flex-row justify-between gap-4 text-xs font-mono tracking-wide text-paper/50">
           <span>© {new Date().getFullYear()} Shandilya Fintax Services LLP. All rights reserved.</span>
-          <span>Registered Limited Liability Partnership · India</span>
+          <span>Developed by <a href="https://www.linkedin.com/in/siddharth-mishra-363194225" target="_blank" rel="noopener noreferrer">@Siddharth-Mishra</a></span>
         </div>
       </div>
     </footer>
